@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Han_Scrum.props" />
+</Project>

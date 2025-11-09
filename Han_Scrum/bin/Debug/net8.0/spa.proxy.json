@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "http://localhost:44471",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\User\\source\\repos\\Han_Scrum\\Han_Scrum\\ClientApp\\",
+"MaxTimeoutInSeconds": "120"
+}
+}

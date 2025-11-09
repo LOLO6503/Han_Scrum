@@ -1,0 +1,29 @@
+.dialog {
+    padding: 16px !important;
+    position: absolute !important;
+}
+
+.dialogTitle {
+    text-align: center !important;
+}
+
+.dialogContent {
+    text-align: center !important;
+}
+
+.dialogAction {
+    justify-content: center !important;
+    gap: 16px !important;
+}
+
+.titleIcon {
+    font-size: 6rem !important;
+}
+
+.titleIcon .MuiSvgIcon-root {
+    font-size: 8rem !important;
+}
+
+.titleIcon:hover {
+    cursor: default !important;
+}

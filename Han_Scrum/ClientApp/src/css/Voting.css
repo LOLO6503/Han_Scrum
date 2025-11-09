@@ -1,0 +1,37 @@
+.table > :not(:first-child) {
+    border-top: none !important;
+}
+
+.table tr td {
+    font-size: 1rem;
+    padding: 12px 16px;
+}
+
+.table thead th {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #333996;
+    background-color: #3c44b126;
+}
+
+.table tfoot td {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #333996;
+    background-color: #3c44b126;
+    padding: 18px;
+}
+
+.table tbody .MuiTableRow-root:hover {
+    background-color: #EFF0F7;
+}
+
+.votedCell {
+    text-align: center;
+    width: 65%;
+    color: white;
+    padding: 0.5em 0;
+    border-radius: 2em;
+    font-weight: bolder;
+    font-size: 0.95rem;
+}
