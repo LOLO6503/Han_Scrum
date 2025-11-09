@@ -28,11 +28,19 @@ Prerequisites
 	a) Download and install Node.js (LTS version recommended) from https://nodejs.org/en/download/.
 	b) Verify installation by running `npm -v` in a terminal (should output 10.9.3 or compatible version).
 
-5. Running the Backend
+5. Running the Frontend
+	a) Open Visual Studio Code.
+	b) Open the `ClientApp` folder (File > Open Folder > select `ClientApp`).
+	c) In VS Code, navigate to the `src` folder in the Explorer pane.
+	d) Right-click `src` and select "Open in Integrated Terminal".
+	e) In the terminal, run: <npm install>
+	f) Run: <npm start> to start the React development server.
+
+6. Running the Backend
 	a) Open Visual Studio.
 	b) Open the solution file (`.sln`) for the project.
 	c) Set the startup project to "Vote" (right-click the project in Solution Explorer and select "Set as Startup Project").
 	d) Press `F5` or select "Start Debugging" to run the backend with the "Vote" launch profile.
 
-6. Running the Platform
+7. Running the Platform
 	a) Browse http://localhost:44471/scrumvotingOpen 

@@ -2,16 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Han_Scrum/obj/Debug/net8.0/apphost.exe
-/Han_Scrum/obj/Debug/net8.0/Han_Scrum.AssemblyInfo.cs
-/Han_Scrum/obj/Debug/net8.0/Han_Scrum.AssemblyInfoInputs.cache
-/Han_Scrum/obj/Debug/net8.0/Han_Scrum.dll
-/Han_Scrum/obj/Debug/net8.0/Han_Scrum.pdb
-/Han_Scrum/obj/Debug/net8.0/Han_Scrum.sourcelink.json
-/Han_Scrum/obj/Debug/net8.0/ref/Han_Scrum.dll
-/Han_Scrum/obj/Debug/net8.0/refint/Han_Scrum.dll
-/Han_Scrum/bin/Debug/net8.0/Han_Scrum.dll
-/Han_Scrum/bin/Debug/net8.0/Han_Scrum.exe
-/Han_Scrum/bin/Debug/net8.0/Han_Scrum.pdb
-/.vs/Han_Scrum/v17/.suo
-/.vs/Han_Scrum/v17/.futdcache.v2
+/Han_Scrum/obj/Debug
+/Han_Scrum/bin/Debug
+/.vs/Han_Scrum
+/.vs/Han_Scrum/v17

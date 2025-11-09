@@ -220,10 +220,21 @@ export default function Voting({ signalRConnection, setNotify, setConfirmDialog 
 		}
 	}
 	
-	const revealSession = () => {		
-		setIsSessionRevealed(true);
-		RevealSession();
-	}
+	const revealSession = () => {
+		// Check if there are any users who have NOT voted and NOT forfeited
+		const hasUnvotedUsers = records.some(record => !record.hasVoted && !record.hasForfeited);
+
+		if (hasUnvotedUsers) {
+			setNotify({
+				isOpen: true,
+				type: 'error',
+				message: `There are users who haven't cast their votes in this session yet.`
+			});
+		} else {
+			setIsSessionRevealed(true);
+			RevealSession();
+		}
+	};
 	
 	const endSession = () => {
 		EndSession();
@@ -323,7 +334,11 @@ export default function Voting({ signalRConnection, setNotify, setConfirmDialog 
 											</div>
 										</TableCell>
 											{user.name === username ? (
-												<TableCell style={{ textAlign:'center', fontWeight:"bold", }}>
+												<TableCell style={{
+													color: isSessionRevealed && user.hasVoted && user.points > 5 ? 'red' : 'inherit',
+													fontWeight:"bold",
+													textAlign: 'center',
+												}}>
 													{user.hasVoted ? user.points : (user.hasForfeited || isSessionRevealed) ? '-' : '*'}
 												</TableCell>
 											) : (
