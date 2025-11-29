@@ -2,7 +2,16 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+/Han_Scrum/obj
 /Han_Scrum/obj/Debug
 /Han_Scrum/bin/Debug
 /.vs/Han_Scrum
 /.vs/Han_Scrum/v17
+/.vs/Han_Scrum/FileContentIndex/41fde8e2-4bfe-432a-87c6-ce2096d6207a.vsidx
+/Han_Scrum/obj/Debug/net8.0
+/Han_Scrum/obj/
+/Han_Scrum/obj/Han_Scrum.csproj.nuget.g.props
+/Han_Scrum/obj/project.assets.json
+/Han_Scrum/obj/project.nuget.cache
+/.vs/Han_Scrum/FileContentIndex
+/Han_Scrum/bin/Debug/net8.0
